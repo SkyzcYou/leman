@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.leman.dao.EpisodeMapper">
+
+    <!--增加一个Episode-->
+    <insert id="addEpisode" parameterType="Episode">
+        insert into episode(father_id,father_name,indexx,url)
+        values (#{father_id}, #{father_name},#{indexx}, #{url})
+    </insert>
+
+    <!--根据id删除一个Episode-->
+    <delete id="deleteEpisodeById" parameterType="int">
+        delete from episode where id=#{id}
+    </delete>
+
+    <!--更新Episode-->
+    <update id="updateEpisode" parameterType="Episode">
+        update episode
+        set father_id = #{father_id},father_name = #{father_name},indexx = #{indexx},url = #{url}
+        where id = #{id}
+    </update>
+
+    <!--根据id查询,返回一个Episode-->
+    <select id="queryEpisodeById" resultType="Episode">
+        select * from episode
+        where id = #{id}
+    </select>
+    <!--查询全部Episode-->
+    <select id="queryAllEpisode" resultType="Episode">
+        SELECT * from episode order by id
+    </select>
+    <!--  根据 father_id 查询该 Father_id 下所有的视频  -->
+    <select id="queryEpisodeByFatherId" resultType="Episode">
+        select * from episode
+        where father_id = #{father_id}
+    </select>
+
+    <!--  根据 father_id 查询该 Father_id 下所有的视频  -->
+    <select id="queryFirstEpisodeByFatherId" resultType="Episode">
+        select * from episode
+        where father_id = #{father_id}
+        and indexx = 1;
+    </select>
+
+</mapper>

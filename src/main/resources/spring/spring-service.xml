@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 扫描service相关的bean -->
+    <context:component-scan base-package="com.leman.service" />
+
+    <bean id="BookServiceImpl" class="com.leman.service.impl.BookServiceImpl">
+        <property name="bookMapper" ref="bookMapper"/>
+    </bean>
+    <!--ServiceImpl注入到IOC容器中-->
+    <bean id="UserServiceImpl" class="com.leman.service.impl.UserServiceImpl">
+        <property name="userMapper" ref="userMapper"/>
+    </bean>
+    <bean id="AdminServiceImpl" class="com.leman.service.impl.AdminServiceImpl">
+        <property name="adminMapper" ref="adminMapper"/>
+    </bean>
+    <bean id="EpisodeServiceImpl" class="com.leman.service.impl.EpisodeServiceImpl">
+        <property name="episodeMapper" ref="episodeMapper"/>
+    </bean>
+    <bean id="CommentServiceImpl" class="com.leman.service.impl.CommentServiceImpl">
+        <property name="commentMapper" ref="commentMapper"/>
+    </bean>
+    <bean id="HomeEpisodeServiceImpl" class="com.leman.service.impl.HomeEpisodeServiceImpl">
+        <property name="homeEpisodeMapper" ref="homeEpisodeMapper"/>
+    </bean>
+    <bean id="AnimeServiceImpl" class="com.leman.service.impl.AnimeServiceImpl">
+        <property name="animeMapper" ref="animeMapper"/>
+    </bean>
+    <bean id="HomeCarouselServiceImpl" class="com.leman.service.impl.HomeCarouselServiceImpl">
+        <property name="homeCarouselMapper" ref="homeCarouselMapper"/>
+    </bean>
+
+    <!-- 配置事务管理器 -->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <!-- 注入数据库连接池 -->
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+</beans>

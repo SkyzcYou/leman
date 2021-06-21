@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e56084e-6316-4b4f-bda3-2b8b47a4ee6a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../.idea/leman.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java/com/leman/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java/com/leman/dao/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java/com/leman/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java/com/leman/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WEB-INF/jsp/admin/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WEB-INF/jsp/admin/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layui/layui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/com/leman/controller/LemanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java/com/leman/controller/LemanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/com/leman/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java/com/leman/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/com/leman/dao/AdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java/com/leman/dao/AdminMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/com/leman/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java/com/leman/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/com/leman/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java/com/leman/dao/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/com/leman/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java/com/leman/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/com/leman/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java/com/leman/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/com/leman/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java/com/leman/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../resources/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../resources/spring/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../resources/spring/spring-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB-INF/jsp/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../WEB-INF/jsp/user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../index0.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../index1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/popuo-box.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/jquery-1.11.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/jquery.magnific-popup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/jquery.polyglot.language.switcher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/modernizr.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/responsiveslides.min.js" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectId" id="1V08bgyiGNVyv9koNHotdUXUMAJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e56084e-6316-4b4f-bda3-2b8b47a4ee6a" name="Default Changelist" comment="" />
+      <created>1576378724222</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576378724222</updated>
+      <workItem from="1576378725473" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

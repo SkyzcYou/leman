@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.leman.dao.AnimeMapper">
+
+    <!--增加一个 Anime-->
+    <insert id="addAnime" parameterType="Anime">
+        insert into anime(name,tip,pimage)
+        values (#{name}, #{tip},#{pimage})
+    </insert>
+
+    <!--根据id删除一个Anime-->
+    <delete id="deleteAnimeById" parameterType="int">
+        delete from anime where id=#{id}
+    </delete>
+
+    <!--更新Anime-->
+    <update id="updateAnime" parameterType="Anime">
+        update anime
+        set name = #{name},tip = #{tip},pimage = #{pimage}
+        where id = #{id}
+    </update>
+
+    <!--根据id查询,返回一个Anime-->
+    <select id="queryAnimeById" resultType="Anime">
+        select * from anime
+        where id = #{id}
+    </select>
+    <!--查询全部Anime-->
+    <select id="queryAllAnime" resultType="Anime">
+        SELECT * from anime
+    </select>
+    <!--根据 name 查询剧集-->
+    <select id="queryAnimeListByName" resultType="Anime">
+        SELECT * from anime where name = #{name}
+    </select>
+
+</mapper>

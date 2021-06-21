@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.leman.dao.CommentMapper">
+
+    <!--增加一个 Comment-->
+    <insert id="addComment" parameterType="Comment">
+        insert into comment(episode_id,user_id,content,create_date)
+        values (#{episode_id}, #{user_id}, #{content},#{create_date})
+    </insert>
+
+    <!--根据id删除一个Comment-->
+    <delete id="deleteCommentById" parameterType="int">
+        delete from comment where id=#{id}
+    </delete>
+
+    <!--更新Comment-->
+    <update id="updateComment" parameterType="Comment">
+        update comment
+        set episode_id = #{episode_id},user_id = #{user_id},content = #{content},create_date = #{create_date}
+        where id = #{id}
+    </update>
+
+    <!--根据id查询,返回一个Comment-->
+    <select id="queryCommentById" resultType="Comment">
+        select * from comment
+        where id = #{id}
+    </select>
+    <!--查询全部Comment-->
+    <select id="queryAllComment" resultType="Comment">
+        SELECT * from comment order by create_date desc
+    </select>
+<!--    根据 episode_id 获取评论列表-->
+    <select id="queryCommentByEpisodeId" resultType="Comment">
+        SELECT * from comment WHERE episode_id = #{episode_id}
+    </select>
+
+</mapper>
