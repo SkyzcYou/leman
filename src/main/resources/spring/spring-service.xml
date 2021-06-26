@@ -10,9 +10,6 @@
     <!-- 扫描service相关的bean -->
     <context:component-scan base-package="com.leman.service" />
 
-    <bean id="BookServiceImpl" class="com.leman.service.impl.BookServiceImpl">
-        <property name="bookMapper" ref="bookMapper"/>
-    </bean>
     <!--ServiceImpl注入到IOC容器中-->
     <bean id="UserServiceImpl" class="com.leman.service.impl.UserServiceImpl">
         <property name="userMapper" ref="userMapper"/>

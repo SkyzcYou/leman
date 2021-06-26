@@ -1,8 +1,6 @@
 package com.leman.controller;
 
-import com.leman.entity.Books;
 import com.leman.entity.Episode;
-import com.leman.service.BookService;
 import com.leman.service.EpisodeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

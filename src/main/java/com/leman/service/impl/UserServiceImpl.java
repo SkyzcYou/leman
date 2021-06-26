@@ -1,10 +1,8 @@
 package com.leman.service.impl;
 
-import com.leman.dao.BookMapper;
 import com.leman.dao.UserMapper;
 import com.leman.entity.User;
 import com.leman.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

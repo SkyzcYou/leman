@@ -10,7 +10,6 @@
         <package name="com.leman.entity"/>
     </typeAliases>
     <mappers>
-        <mapper resource="com/leman/dao/BookMapper.xml"/>
         <mapper resource="com/leman/dao/UserMapper.xml"/>
         <mapper resource="com/leman/dao/AdminMapper.xml"/>
     </mappers>
