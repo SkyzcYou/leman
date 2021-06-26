@@ -44,5 +44,8 @@
         where father_id = #{father_id}
         and indexx = 1;
     </select>
+    <select id="queryEpisodeByFatherName" resultType="com.leman.entity.Episode">
+        SELECT * from episode where episode.father_name like CONCAT('%',#{name},'%')
+    </select>
 
 </mapper>

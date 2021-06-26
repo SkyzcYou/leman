@@ -103,8 +103,8 @@
                 <a class="nav-link" href="${pageContext.request.contextPath}/videoBase">视频库</a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="有啥想看的">
+        <form class="form-inline my-2 my-lg-0" action="${pageContext.request.contextPath}/search">
+            <input class="form-control mr-sm-2" type="search" name="value" placeholder="有啥想看的">
             <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">搜索</button>
         </form>
         <c:choose>

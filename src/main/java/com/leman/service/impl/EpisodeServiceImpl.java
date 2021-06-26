@@ -48,4 +48,9 @@ public class EpisodeServiceImpl implements EpisodeService {
     public Episode queryFirstEpisodeByFatherId(int father_id) {
         return episodeMapper.queryFirstEpisodeByFatherId(father_id);
     }
+
+    @Override
+    public List<Episode> queryEpisodeByFatherName(String father_name) {
+        return episodeMapper.queryEpisodeByFatherName(father_name);
+    }
 }

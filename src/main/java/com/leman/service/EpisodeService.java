@@ -25,4 +25,7 @@ public interface EpisodeService {
     //根据 father_id 获取第一集
     Episode queryFirstEpisodeByFatherId(int father_id);
 
+    //根据 father_name 获取搜索列表
+    List<Episode> queryEpisodeByFatherName(String father_name);
+
 }
